@@ -1,7 +1,6 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  // projectId: "h732q",
   chromeWebSecurity: false,
   defaultCommandTimeout: 50000,
   e2e: {
